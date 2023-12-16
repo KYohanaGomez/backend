@@ -1,10 +1,10 @@
-const PORT = process.env.PORT;
-const LOCALHOST = process.env.LOCALHOST;
+// const PORT = process.env.PORT;
+// const LOCALHOST = process.env.LOCALHOST;
 
-// const PORT = 3005;
+const PORT = 3005;
 
 const URL_FONT = "";
-const SECRETKEY = "";
+const SECRETKEY = "sportvibe";
 
 // const NODE_ENV = process.env.NODE_ENV || true;
 

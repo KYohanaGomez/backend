@@ -25,7 +25,7 @@ module.exports = (sequelize) => {
       },
       lastName: {
         type: DataTypes.STRING(255),
-        allowNull: false,
+        allowNull: true,
       },
       phoneNumber: {
         type: DataTypes.INTEGER,
@@ -33,19 +33,19 @@ module.exports = (sequelize) => {
       },
       address: {
         type: DataTypes.STRING(255),
-        allowNull: false,
+        allowNull: true,
       },
       city: {
         type: DataTypes.STRING(255),
-        allowNull: false,
+        allowNull: true,
       },
       country: {
         type: DataTypes.STRING(255),
-        allowNull: false,
+        allowNull: true,
       },
       zipCode: {
         type: DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
       },
       email: {
         type: DataTypes.STRING(255),
@@ -57,7 +57,11 @@ module.exports = (sequelize) => {
       },
       password: {
         type: DataTypes.STRING(255),
-        allowNull: false,
+        allowNull: true,
+      },
+      rol: {
+        type: DataTypes.STRING(255),
+        allowNull: true,
       },
       image: {
         type: DataTypes.STRING(255),
